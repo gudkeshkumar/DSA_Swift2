@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		181C7E4F26A44F5D00C230F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E4E26A44F5D00C230F5 /* main.swift */; };
+		181C7E5626A44F9A00C230F5 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E5526A44F9A00C230F5 /* BubbleSort.swift */; };
+		181C7E5826A4578900C230F5 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E5726A4578900C230F5 /* SelectionSort.swift */; };
+		181C7E5A26A4586900C230F5 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E5926A4586900C230F5 /* InsertionSort.swift */; };
+		181C7E5C26A4587500C230F5 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E5B26A4587500C230F5 /* MergeSort.swift */; };
+		181C7E5E26A4588100C230F5 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E5D26A4588100C230F5 /* QuickSort.swift */; };
+		181C7E6026A4589300C230F5 /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E5F26A4589300C230F5 /* HeapSort.swift */; };
+		184B6DF12770E28200DAB6FB /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6DF02770E28200DAB6FB /* BinarySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		181C7E4B26A44F5D00C230F5 /* SortingAlgos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortingAlgos; sourceTree = BUILT_PRODUCTS_DIR; };
+		181C7E4B26A44F5D00C230F5 /* DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		181C7E4E26A44F5D00C230F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		181C7E5526A44F9A00C230F5 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		181C7E5726A4578900C230F5 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		181C7E5926A4586900C230F5 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		181C7E5B26A4587500C230F5 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		181C7E5D26A4588100C230F5 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		181C7E5F26A4589300C230F5 /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
+		184B6DF02770E28200DAB6FB /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +55,10 @@
 		181C7E4226A44F5D00C230F5 = {
 			isa = PBXGroup;
 			children = (
-				181C7E4D26A44F5D00C230F5 /* SortingAlgos */,
+				184B6DEF2770E22A00DAB6FB /* Searching */,
+				184B6DE92770E1AC00DAB6FB /* DataStructures */,
+				181C7E4E26A44F5D00C230F5 /* main.swift */,
+				181C7E4D26A44F5D00C230F5 /* Sorting */,
 				181C7E4C26A44F5D00C230F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +66,85 @@
 		181C7E4C26A44F5D00C230F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				181C7E4B26A44F5D00C230F5 /* SortingAlgos */,
+				181C7E4B26A44F5D00C230F5 /* DSA */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		181C7E4D26A44F5D00C230F5 /* SortingAlgos */ = {
+		181C7E4D26A44F5D00C230F5 /* Sorting */ = {
 			isa = PBXGroup;
 			children = (
-				181C7E4E26A44F5D00C230F5 /* main.swift */,
+				181C7E5526A44F9A00C230F5 /* BubbleSort.swift */,
+				181C7E5726A4578900C230F5 /* SelectionSort.swift */,
+				181C7E5926A4586900C230F5 /* InsertionSort.swift */,
+				181C7E5B26A4587500C230F5 /* MergeSort.swift */,
+				181C7E5D26A4588100C230F5 /* QuickSort.swift */,
+				181C7E5F26A4589300C230F5 /* HeapSort.swift */,
 			);
-			path = SortingAlgos;
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		184B6DE92770E1AC00DAB6FB /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				184B6DEE2770E1FC00DAB6FB /* Graphs */,
+				184B6DED2770E1F000DAB6FB /* Trees */,
+				184B6DEC2770E1E200DAB6FB /* LinkList */,
+				184B6DEB2770E1D800DAB6FB /* Queue */,
+				184B6DEA2770E1C900DAB6FB /* Stack */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		184B6DEA2770E1C900DAB6FB /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		184B6DEB2770E1D800DAB6FB /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		184B6DEC2770E1E200DAB6FB /* LinkList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkList;
+			sourceTree = "<group>";
+		};
+		184B6DED2770E1F000DAB6FB /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		184B6DEE2770E1FC00DAB6FB /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		184B6DEF2770E22A00DAB6FB /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				184B6DF02770E28200DAB6FB /* BinarySearch.swift */,
+			);
+			path = Searching;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		181C7E4A26A44F5D00C230F5 /* SortingAlgos */ = {
+		181C7E4A26A44F5D00C230F5 /* DSA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 181C7E5226A44F5D00C230F5 /* Build configuration list for PBXNativeTarget "SortingAlgos" */;
+			buildConfigurationList = 181C7E5226A44F5D00C230F5 /* Build configuration list for PBXNativeTarget "DSA" */;
 			buildPhases = (
 				181C7E4726A44F5D00C230F5 /* Sources */,
 				181C7E4826A44F5D00C230F5 /* Frameworks */,
@@ -77,9 +154,9 @@
 			);
 			dependencies = (
 			);
-			name = SortingAlgos;
+			name = DSA;
 			productName = SortingAlgos;
-			productReference = 181C7E4B26A44F5D00C230F5 /* SortingAlgos */;
+			productReference = 181C7E4B26A44F5D00C230F5 /* DSA */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -90,14 +167,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					181C7E4A26A44F5D00C230F5 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = 181C7E4626A44F5D00C230F5 /* Build configuration list for PBXProject "SortingAlgos" */;
+			buildConfigurationList = 181C7E4626A44F5D00C230F5 /* Build configuration list for PBXProject "DSA" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				181C7E4A26A44F5D00C230F5 /* SortingAlgos */,
+				181C7E4A26A44F5D00C230F5 /* DSA */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184B6DF12770E28200DAB6FB /* BinarySearch.swift in Sources */,
 				181C7E4F26A44F5D00C230F5 /* main.swift in Sources */,
+				181C7E5E26A4588100C230F5 /* QuickSort.swift in Sources */,
+				181C7E5A26A4586900C230F5 /* InsertionSort.swift in Sources */,
+				181C7E6026A4589300C230F5 /* HeapSort.swift in Sources */,
+				181C7E5826A4578900C230F5 /* SelectionSort.swift in Sources */,
+				181C7E5626A44F9A00C230F5 /* BubbleSort.swift in Sources */,
+				181C7E5C26A4587500C230F5 /* MergeSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +329,7 @@
 		181C7E5326A44F5D00C230F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LF62428J43;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -256,6 +341,7 @@
 		181C7E5426A44F5D00C230F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LF62428J43;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -267,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		181C7E4626A44F5D00C230F5 /* Build configuration list for PBXProject "SortingAlgos" */ = {
+		181C7E4626A44F5D00C230F5 /* Build configuration list for PBXProject "DSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				181C7E5026A44F5D00C230F5 /* Debug */,
@@ -276,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		181C7E5226A44F5D00C230F5 /* Build configuration list for PBXNativeTarget "SortingAlgos" */ = {
+		181C7E5226A44F5D00C230F5 /* Build configuration list for PBXNativeTarget "DSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				181C7E5326A44F5D00C230F5 /* Debug */,
