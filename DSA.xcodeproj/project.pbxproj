@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1815B3EB27725254002F00CD /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3EA27725254002F00CD /* Stack.swift */; };
+		1815B3ED27725436002F00CD /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3EC27725436002F00CD /* Queue.swift */; };
+		1815B3EF27725445002F00CD /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3EE27725445002F00CD /* LinkList.swift */; };
 		181C7E4F26A44F5D00C230F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E4E26A44F5D00C230F5 /* main.swift */; };
 		181C7E5626A44F9A00C230F5 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E5526A44F9A00C230F5 /* BubbleSort.swift */; };
 		181C7E5826A4578900C230F5 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E5726A4578900C230F5 /* SelectionSort.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1815B3EA27725254002F00CD /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		1815B3EC27725436002F00CD /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		1815B3EE27725445002F00CD /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 		181C7E4B26A44F5D00C230F5 /* DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		181C7E4E26A44F5D00C230F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		181C7E5526A44F9A00C230F5 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
@@ -54,6 +60,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1815B3E727725204002F00CD /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				1815B3EA27725254002F00CD /* Stack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		1815B3E827725229002F00CD /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				1815B3EC27725436002F00CD /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		1815B3E927725236002F00CD /* Linklist */ = {
+			isa = PBXGroup;
+			children = (
+				1815B3EE27725445002F00CD /* LinkList.swift */,
+			);
+			path = Linklist;
+			sourceTree = "<group>";
+		};
 		181C7E4226A44F5D00C230F5 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +127,9 @@
 		184B6DFD2770E9ED00DAB6FB /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				1815B3E927725236002F00CD /* Linklist */,
+				1815B3E827725229002F00CD /* Queue */,
+				1815B3E727725204002F00CD /* Stack */,
 				184B6DFE2770E9ED00DAB6FB /* Trees */,
 			);
 			path = DataStructures;
@@ -171,9 +204,12 @@
 				184B6E002770E9ED00DAB6FB /* BinarySearch.swift in Sources */,
 				181C7E4F26A44F5D00C230F5 /* main.swift in Sources */,
 				181C7E5E26A4588100C230F5 /* QuickSort.swift in Sources */,
+				1815B3ED27725436002F00CD /* Queue.swift in Sources */,
 				181C7E5A26A4586900C230F5 /* InsertionSort.swift in Sources */,
 				181C7E6026A4589300C230F5 /* HeapSort.swift in Sources */,
 				184B6E012770E9ED00DAB6FB /* BinaryTree.swift in Sources */,
+				1815B3EF27725445002F00CD /* LinkList.swift in Sources */,
+				1815B3EB27725254002F00CD /* Stack.swift in Sources */,
 				181C7E5826A4578900C230F5 /* SelectionSort.swift in Sources */,
 				181C7E5626A44F9A00C230F5 /* BubbleSort.swift in Sources */,
 				181C7E5C26A4587500C230F5 /* MergeSort.swift in Sources */,

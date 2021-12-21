@@ -1,5 +1,22 @@
 import Foundation
 
+func recursiveBinarySearch(array: [Int], lower: Int, upper: Int, value: Int) -> Bool {
+    if lower <= upper {
+        let mid = lower + (upper - lower) / 2
+        if array[mid] == value {
+            return true
+        }
+        
+        if value > array[mid] {
+            return recursiveBinarySearch(array: array, lower: mid + 1, upper: upper, value: value)
+        } else {
+            return recursiveBinarySearch(array: array, lower: lower, upper: mid - 1, value: value)
+        }
+        
+    }
+    return false
+}
+
 public func binarysearch(_ element: Int, in array: [Int]) -> Int {
     var start = 0
     var end = array.count - 1
