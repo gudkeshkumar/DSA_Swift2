@@ -2,7 +2,7 @@
 //  SelectionSort.swift
 //  SortingAlgos
 //
-//  Created by apple on 18/07/21.
+//  Created by Gudkesh on 18/07/21.
 //
 
 /*

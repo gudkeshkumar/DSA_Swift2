@@ -10,6 +10,13 @@
 		1815B3EB27725254002F00CD /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3EA27725254002F00CD /* Stack.swift */; };
 		1815B3ED27725436002F00CD /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3EC27725436002F00CD /* Queue.swift */; };
 		1815B3EF27725445002F00CD /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3EE27725445002F00CD /* LinkList.swift */; };
+		1815B3F1277B7173002F00CD /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3F0277B7172002F00CD /* Tree.swift */; };
+		1815B3F3277E1953002F00CD /* Problems_Linklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3F2277E1953002F00CD /* Problems_Linklist.swift */; };
+		1815B3F5277E1BBB002F00CD /* Problems_Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3F4277E1BBB002F00CD /* Problems_Queue.swift */; };
+		1815B3F7277E1BD7002F00CD /* Problems_Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3F6277E1BD7002F00CD /* Problems_Stacks.swift */; };
+		1815B3F927828BB6002F00CD /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3F827828BB6002F00CD /* DoublyLinkedList.swift */; };
+		1815B3FC2784AE9A002F00CD /* Problems_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3FB2784AE99002F00CD /* Problems_Array.swift */; };
+		1815B3FE278866CB002F00CD /* CircularLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815B3FD278866CB002F00CD /* CircularLinkList.swift */; };
 		181C7E4F26A44F5D00C230F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E4E26A44F5D00C230F5 /* main.swift */; };
 		181C7E5626A44F9A00C230F5 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E5526A44F9A00C230F5 /* BubbleSort.swift */; };
 		181C7E5826A4578900C230F5 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C7E5726A4578900C230F5 /* SelectionSort.swift */; };
@@ -37,6 +44,13 @@
 		1815B3EA27725254002F00CD /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		1815B3EC27725436002F00CD /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		1815B3EE27725445002F00CD /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
+		1815B3F0277B7172002F00CD /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		1815B3F2277E1953002F00CD /* Problems_Linklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problems_Linklist.swift; sourceTree = "<group>"; };
+		1815B3F4277E1BBB002F00CD /* Problems_Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problems_Queue.swift; sourceTree = "<group>"; };
+		1815B3F6277E1BD7002F00CD /* Problems_Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problems_Stacks.swift; sourceTree = "<group>"; };
+		1815B3F827828BB6002F00CD /* DoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedList.swift; sourceTree = "<group>"; };
+		1815B3FB2784AE99002F00CD /* Problems_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problems_Array.swift; sourceTree = "<group>"; };
+		1815B3FD278866CB002F00CD /* CircularLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLinkList.swift; sourceTree = "<group>"; };
 		181C7E4B26A44F5D00C230F5 /* DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		181C7E4E26A44F5D00C230F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		181C7E5526A44F9A00C230F5 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
@@ -64,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				1815B3EA27725254002F00CD /* Stack.swift */,
+				1815B3F6277E1BD7002F00CD /* Problems_Stacks.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -72,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				1815B3EC27725436002F00CD /* Queue.swift */,
+				1815B3F4277E1BBB002F00CD /* Problems_Queue.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -80,8 +96,19 @@
 			isa = PBXGroup;
 			children = (
 				1815B3EE27725445002F00CD /* LinkList.swift */,
+				1815B3F827828BB6002F00CD /* DoublyLinkedList.swift */,
+				1815B3FD278866CB002F00CD /* CircularLinkList.swift */,
+				1815B3F2277E1953002F00CD /* Problems_Linklist.swift */,
 			);
 			path = Linklist;
+			sourceTree = "<group>";
+		};
+		1815B3FA2784AE7E002F00CD /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				1815B3FB2784AE99002F00CD /* Problems_Array.swift */,
+			);
+			path = Arrays;
 			sourceTree = "<group>";
 		};
 		181C7E4226A44F5D00C230F5 = {
@@ -127,6 +154,7 @@
 		184B6DFD2770E9ED00DAB6FB /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				1815B3FA2784AE7E002F00CD /* Arrays */,
 				1815B3E927725236002F00CD /* Linklist */,
 				1815B3E827725229002F00CD /* Queue */,
 				1815B3E727725204002F00CD /* Stack */,
@@ -139,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				184B6DFF2770E9ED00DAB6FB /* BinaryTree.swift */,
+				1815B3F0277B7172002F00CD /* Tree.swift */,
 			);
 			path = Trees;
 			sourceTree = "<group>";
@@ -204,6 +233,9 @@
 				184B6E002770E9ED00DAB6FB /* BinarySearch.swift in Sources */,
 				181C7E4F26A44F5D00C230F5 /* main.swift in Sources */,
 				181C7E5E26A4588100C230F5 /* QuickSort.swift in Sources */,
+				1815B3FC2784AE9A002F00CD /* Problems_Array.swift in Sources */,
+				1815B3F3277E1953002F00CD /* Problems_Linklist.swift in Sources */,
+				1815B3FE278866CB002F00CD /* CircularLinkList.swift in Sources */,
 				1815B3ED27725436002F00CD /* Queue.swift in Sources */,
 				181C7E5A26A4586900C230F5 /* InsertionSort.swift in Sources */,
 				181C7E6026A4589300C230F5 /* HeapSort.swift in Sources */,
@@ -211,7 +243,11 @@
 				1815B3EF27725445002F00CD /* LinkList.swift in Sources */,
 				1815B3EB27725254002F00CD /* Stack.swift in Sources */,
 				181C7E5826A4578900C230F5 /* SelectionSort.swift in Sources */,
+				1815B3F5277E1BBB002F00CD /* Problems_Queue.swift in Sources */,
+				1815B3F927828BB6002F00CD /* DoublyLinkedList.swift in Sources */,
+				1815B3F7277E1BD7002F00CD /* Problems_Stacks.swift in Sources */,
 				181C7E5626A44F9A00C230F5 /* BubbleSort.swift in Sources */,
+				1815B3F1277B7173002F00CD /* Tree.swift in Sources */,
 				181C7E5C26A4587500C230F5 /* MergeSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

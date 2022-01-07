@@ -2,7 +2,7 @@
 //  Stack.swift
 //  DSA
 //
-//  Created by apple on 21/12/21.
+//  Created by Gudkesh on 21/12/21.
 //
 
 import Foundation
