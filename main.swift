@@ -14,21 +14,58 @@ var arr: [Int] =  [6,4,7,5,1,2,8,3]
 //
 //print(ans)
 
-example(of: "DLList") {
-    let list = DLList<Int>()
-    for i in arr {
-        list.push(i)
-    }
+//example(of: "DLList") {
+//    let list = DLList<Int>()
+//    for i in arr {
+//        list.push(i)
+//    }
+//
+//    print(list)
+//    list.append(9)
+//    list.insert(11, after: list.node(at: 8))
+//    print(list)
+//
+//    list.removeNode(after: list.node(at: 4))
+//    list.pop()
+//    list.removeLast()
+//
+//}
+
+//example(of: "circular List") {
+//    let list = CircularLinklist<Int>()
+//    for i in arr {
+//        list.push(i)
+//    }
+//
+//    print(list)
+//    list.push(0)
+//    list.append(9)
+//    list.insert(11, after: list.node(at: 8))
+//    print(list)
+//
+//}
+
+example(of: "Graph") {
+    let graph = AdjacencyList<String, Double>()
     
-    print(list)
-    list.append(9)
-    list.insert(11, after: list.node(at: 8))
-    print(list)
+    let A = graph.createVertex("A")
+    let B = graph.createVertex("B")
+    let C = graph.createVertex("C")
+    let D = graph.createVertex("D")
+    let E = graph.createVertex("E")
+    let F = graph.createVertex("F")
     
-    list.removeNode(after: list.node(at: 4))
-    list.pop()
-    list.removeLast()
+    graph.addUndirectedEdge(between: A, and: B, weight: nil)
+    graph.addUndirectedEdge(between: A, and: C, weight: nil)
+    graph.addUndirectedEdge(between: B, and: D, weight: nil)
+    graph.addUndirectedEdge(between: B, and: C, weight: nil)
+    graph.addUndirectedEdge(between: C, and: E, weight: nil)
+    graph.addUndirectedEdge(between: D, and: E, weight: nil)
+    graph.addUndirectedEdge(between: D, and: F, weight: nil)
+    graph.addUndirectedEdge(between: E, and: F, weight: nil)
     
+    graph.bfs(src: A, graph: graph)
+//    print(graph)
 }
 
 

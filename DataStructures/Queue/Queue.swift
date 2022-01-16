@@ -27,6 +27,7 @@ struct QueueArray<T>: Queue {
         return array.first
     }
     
+    @discardableResult
     mutating func enqueue(_ element: T) -> Bool {
         array.append(element)
         return true

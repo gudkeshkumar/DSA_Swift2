@@ -42,8 +42,10 @@ public func firstOccurance(_ element: Int, array: [Int]) -> Int {
     while start <= end {
         let mid  = start + ((end - start) / 2)
         let val = array[mid]
-        if element <= val {
+        if element == val {
             res = mid
+        }
+        if element <= val {
             end = mid - 1
         } else {
             start = mid + 1
@@ -60,9 +62,10 @@ public func lastOccurance(_ element: Int, array: [Int]) -> Int {
     while start <= end {
         let mid  = start + ((end - start) / 2)
         let val = array[mid]
-        
-        if element >= val {
+        if element == val {
             res = mid
+        }
+        if element >= val {
             start = mid + 1
         } else {
             end = mid - 1
