@@ -57,7 +57,7 @@ class CircularLinklist<T: Comparable> {
     func display() {
             var nextNode = self.head
             repeat {
-                print(nextNode?.value)
+                print(nextNode?.value as Any)
                 nextNode = nextNode?.next
             } while !(nextNode === self.head)
         }
@@ -66,6 +66,19 @@ class CircularLinklist<T: Comparable> {
 
 //MARK: Remove methods
 extension CircularLinklist {
+    @discardableResult
+    func pop() -> Node<T>? {
+        guard let head = head else {
+            return nil
+        }
+        let temp = head
+        tail?.next = temp.next
+        self.head = temp.next
+        return temp
+    }
     
+    func removeLast() {
+        
+    }
 }
     

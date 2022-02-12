@@ -45,27 +45,42 @@ var arr: [Int] =  [6,4,7,5,1,2,8,3]
 //
 //}
 
-example(of: "Graph") {
-    let graph = AdjacencyList<String, Double>()
-    
-    let A = graph.createVertex("A")
-    let B = graph.createVertex("B")
-    let C = graph.createVertex("C")
-    let D = graph.createVertex("D")
-    let E = graph.createVertex("E")
-    let F = graph.createVertex("F")
-    
-    graph.addUndirectedEdge(between: A, and: B, weight: nil)
-    graph.addUndirectedEdge(between: A, and: C, weight: nil)
-    graph.addUndirectedEdge(between: B, and: D, weight: nil)
-    graph.addUndirectedEdge(between: B, and: C, weight: nil)
-    graph.addUndirectedEdge(between: C, and: E, weight: nil)
-    graph.addUndirectedEdge(between: D, and: E, weight: nil)
-    graph.addUndirectedEdge(between: D, and: F, weight: nil)
-    graph.addUndirectedEdge(between: E, and: F, weight: nil)
-    
-    graph.bfs(src: A, graph: graph)
-//    print(graph)
-}
+//example(of: "Graph") {
+//    let graph = AdjacencyList<String, Double>()
+//
+//    let A = graph.createVertex("A")
+//    let B = graph.createVertex("B")
+//    let C = graph.createVertex("C")
+//    let D = graph.createVertex("D")
+//    let E = graph.createVertex("E")
+//    let F = graph.createVertex("F")
+//
+//    graph.addUndirectedEdge(between: A, and: B, weight: nil)
+//    graph.addUndirectedEdge(between: A, and: C, weight: nil)
+//    graph.addUndirectedEdge(between: B, and: D, weight: nil)
+//    graph.addUndirectedEdge(between: B, and: C, weight: nil)
+//    graph.addUndirectedEdge(between: C, and: E, weight: nil)
+//    graph.addUndirectedEdge(between: D, and: E, weight: nil)
+//    graph.addUndirectedEdge(between: D, and: F, weight: nil)
+//    graph.addUndirectedEdge(between: E, and: F, weight: nil)
+//
+//    graph.bfs(src: A, graph: graph)
+////    print(graph)
+//}
 
+let n = findNumberOfRotations([4,5,6,7,1,2,3])
+
+let obj1 = MyClass()
+let obj2: MyProtocol = MyClass()
+let a = obj1.age
+obj1.fun2()
+obj1.myfun()
+print(a)
+
+let b = obj2.age
+print(b)
+obj2.fun2()
+obj2.myfun()
+
+//let obj3 = MyProtocol()
 

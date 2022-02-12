@@ -28,6 +28,7 @@
 		184B6E012770E9ED00DAB6FB /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6DFF2770E9ED00DAB6FB /* BinaryTree.swift */; };
 		18D45056279318EF005B9B11 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D45055279318EF005B9B11 /* Graph.swift */; };
 		18D45058279334E7005B9B11 /* Traversing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D45057279334E7005B9B11 /* Traversing.swift */; };
+		18D4505A27B55707005B9B11 /* Experiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4505927B55706005B9B11 /* Experiments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,7 @@
 		184B6DFF2770E9ED00DAB6FB /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		18D45055279318EF005B9B11 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		18D45057279334E7005B9B11 /* Traversing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traversing.swift; sourceTree = "<group>"; };
+		18D4505927B55706005B9B11 /* Experiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		181C7E4226A44F5D00C230F5 = {
 			isa = PBXGroup;
 			children = (
+				18D4505927B55706005B9B11 /* Experiments.swift */,
 				184B6DFD2770E9ED00DAB6FB /* DataStructures */,
 				184B6DFB2770E9ED00DAB6FB /* Searching */,
 				181C7E4E26A44F5D00C230F5 /* main.swift */,
@@ -250,6 +253,7 @@
 				1815B3FC2784AE9A002F00CD /* Problems_Array.swift in Sources */,
 				18D45056279318EF005B9B11 /* Graph.swift in Sources */,
 				1815B3F3277E1953002F00CD /* Problems_Linklist.swift in Sources */,
+				18D4505A27B55707005B9B11 /* Experiments.swift in Sources */,
 				1815B3FE278866CB002F00CD /* CircularLinkList.swift in Sources */,
 				1815B3ED27725436002F00CD /* Queue.swift in Sources */,
 				181C7E5A26A4586900C230F5 /* InsertionSort.swift in Sources */,

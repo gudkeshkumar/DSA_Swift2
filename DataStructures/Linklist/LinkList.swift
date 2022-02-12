@@ -7,6 +7,13 @@
 
 import Foundation
 
+struct SNode {
+    
+    var value: Int
+    var next: SNode?
+    
+}
+
 class Node<Value> {
     
     var value: Value
