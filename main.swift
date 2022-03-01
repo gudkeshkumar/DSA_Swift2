@@ -68,19 +68,22 @@ var arr: [Int] =  [6,4,7,5,1,2,8,3]
 ////    print(graph)
 //}
 
-let n = findNumberOfRotations([4,5,6,7,1,2,3])
-
-let obj1 = MyClass()
-let obj2: MyProtocol = MyClass()
-let a = obj1.age
-obj1.fun2()
-obj1.myfun()
-print(a)
-
-let b = obj2.age
-print(b)
-obj2.fun2()
-obj2.myfun()
+//let n = findNumberOfRotations([4,5,6,7,1,2,3])
+//
+//let obj1 = MyClass()
+//let obj2: MyProtocol = MyClass()
+//let a = obj1.age
+//obj1.fun2()
+//obj1.myfun()
+//print(a)
+//
+//let b = obj2.age
+//print(b)
+//obj2.fun2()
+//obj2.myfun()
 
 //let obj3 = MyProtocol()
+
+let c = subsequenceCount([1,2,3,4,5], 5)
+print(c)
 

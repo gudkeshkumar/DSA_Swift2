@@ -28,6 +28,9 @@
 		184B6E012770E9ED00DAB6FB /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6DFF2770E9ED00DAB6FB /* BinaryTree.swift */; };
 		187CAF5E27BE15D4005EDB96 /* ProblemsOnStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CAF5D27BE15D4005EDB96 /* ProblemsOnStrings.swift */; };
 		187CAF7327C7E257005EDB96 /* Problems_Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CAF7227C7E257005EDB96 /* Problems_Tree.swift */; };
+		187CAF7627C7EE78005EDB96 /* DProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CAF7527C7EE78005EDB96 /* DProgramming.swift */; };
+		187CAF7827C81476005EDB96 /* BitManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CAF7727C81476005EDB96 /* BitManipulation.swift */; };
+		187CAF7A27C8C012005EDB96 /* Problems_Rec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CAF7927C8C012005EDB96 /* Problems_Rec.swift */; };
 		18D45056279318EF005B9B11 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D45055279318EF005B9B11 /* Graph.swift */; };
 		18D45058279334E7005B9B11 /* Traversing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D45057279334E7005B9B11 /* Traversing.swift */; };
 		18D4505A27B55707005B9B11 /* Experiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4505927B55706005B9B11 /* Experiments.swift */; };
@@ -68,6 +71,9 @@
 		184B6DFF2770E9ED00DAB6FB /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		187CAF5D27BE15D4005EDB96 /* ProblemsOnStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsOnStrings.swift; sourceTree = "<group>"; };
 		187CAF7227C7E257005EDB96 /* Problems_Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problems_Tree.swift; sourceTree = "<group>"; };
+		187CAF7527C7EE78005EDB96 /* DProgramming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DProgramming.swift; sourceTree = "<group>"; };
+		187CAF7727C81476005EDB96 /* BitManipulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitManipulation.swift; sourceTree = "<group>"; };
+		187CAF7927C8C012005EDB96 /* Problems_Rec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problems_Rec.swift; sourceTree = "<group>"; };
 		18D45055279318EF005B9B11 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		18D45057279334E7005B9B11 /* Traversing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traversing.swift; sourceTree = "<group>"; };
 		18D4505927B55706005B9B11 /* Experiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiments.swift; sourceTree = "<group>"; };
@@ -124,6 +130,8 @@
 		181C7E4226A44F5D00C230F5 = {
 			isa = PBXGroup;
 			children = (
+				187CAF7727C81476005EDB96 /* BitManipulation.swift */,
+				187CAF7427C7EE5F005EDB96 /* DynamicProgramming */,
 				18D4505927B55706005B9B11 /* Experiments.swift */,
 				184B6DFD2770E9ED00DAB6FB /* DataStructures */,
 				184B6DFB2770E9ED00DAB6FB /* Searching */,
@@ -194,6 +202,15 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		187CAF7427C7EE5F005EDB96 /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				187CAF7527C7EE78005EDB96 /* DProgramming.swift */,
+				187CAF7927C8C012005EDB96 /* Problems_Rec.swift */,
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
 		18D45054279318CD005B9B11 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187CAF7827C81476005EDB96 /* BitManipulation.swift in Sources */,
 				184B6E002770E9ED00DAB6FB /* BinarySearch.swift in Sources */,
 				181C7E4F26A44F5D00C230F5 /* main.swift in Sources */,
 				181C7E5E26A4588100C230F5 /* QuickSort.swift in Sources */,
@@ -268,6 +286,7 @@
 				18D45056279318EF005B9B11 /* Graph.swift in Sources */,
 				1815B3F3277E1953002F00CD /* Problems_Linklist.swift in Sources */,
 				18D4505A27B55707005B9B11 /* Experiments.swift in Sources */,
+				187CAF7627C7EE78005EDB96 /* DProgramming.swift in Sources */,
 				187CAF5E27BE15D4005EDB96 /* ProblemsOnStrings.swift in Sources */,
 				1815B3FE278866CB002F00CD /* CircularLinkList.swift in Sources */,
 				1815B3ED27725436002F00CD /* Queue.swift in Sources */,
@@ -282,6 +301,7 @@
 				1815B3F927828BB6002F00CD /* DoublyLinkedList.swift in Sources */,
 				1815B3F7277E1BD7002F00CD /* Problems_Stacks.swift in Sources */,
 				181C7E5626A44F9A00C230F5 /* BubbleSort.swift in Sources */,
+				187CAF7A27C8C012005EDB96 /* Problems_Rec.swift in Sources */,
 				1815B3F1277B7173002F00CD /* Tree.swift in Sources */,
 				181C7E5C26A4587500C230F5 /* MergeSort.swift in Sources */,
 				18D45058279334E7005B9B11 /* Traversing.swift in Sources */,
