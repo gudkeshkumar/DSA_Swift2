@@ -84,6 +84,8 @@ var arr: [Int] =  [6,4,7,5,1,2,8,3]
 
 //let obj3 = MyProtocol()
 
-let c = subsequenceCount([1,2,3,4,5], 5)
+let c = subarraySum([3, 4, 1, 3, 3, 1 ], 7)
 print(c)
+
+
 

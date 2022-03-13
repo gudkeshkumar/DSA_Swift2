@@ -106,3 +106,40 @@ func findClosestElements(_ arr: [Int], _ k: Int, _ x: Int) -> [Int] {
         
         return ans
     }
+
+/*
+ Find subarray sum = k
+ */
+
+func subarraySum(_ nums: [Int], _ k: Int) -> [[Int]] {
+    var ans = [[Int]]()
+    let n = nums.count
+    var left = 0
+    var right = 1
+    var cs = nums[0]
+    
+    while right < n {
+        if cs == k {
+            ans.append([left, right-1])
+            left += 1
+            right = left + 1
+            cs = nums[left]
+            
+        }
+        if k > cs && right < n {
+            cs += nums[right]
+            right += 1
+        } else if k < cs && left < right {
+            cs -= nums[left]
+            left += 1
+        }
+        
+    }
+    
+    if cs == k {
+      ans.append([left, right - 1])
+    }
+    
+    return ans
+    
+}
