@@ -7,14 +7,3 @@
 
 import Foundation
 
-
-public class TreeNode<T> {
-     public var val: T
-     public var left: TreeNode<T>?
-     public var right: TreeNode<T>?
-     public init(_ val: T) {
-         self.val = val
-         self.left = nil
-         self.right = nil
-     }
- }
